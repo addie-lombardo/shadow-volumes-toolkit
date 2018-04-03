@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: f90634f414e2a4ff6974cd2a35195cc7
+labels:
+- shadow
+- volume
+- toolkit
+- dynamic
+- lighting
+- shadows
+- shade
+timeCreated: 18446744011573954816
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - backAlways: {instanceID: 0}
+  - frontAlways: {instanceID: 0}
+  - front: {instanceID: 0}
+  - back: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
