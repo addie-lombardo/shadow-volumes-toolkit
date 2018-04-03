@@ -99,7 +99,7 @@ public class QuickShadowSetupWindow : EditorWindow
 	{
 		EditorWindow window = EditorWindow.GetWindow<QuickShadowSetupWindow>();
 		
-		window.title = "Quick Shadow Setup";
+		window.titleContent = new GUIContent("Quick Shadow Setup");
 	}
 	
 	public void OnSelectionChange()

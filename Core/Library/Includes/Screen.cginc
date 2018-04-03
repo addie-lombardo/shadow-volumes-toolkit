@@ -4,12 +4,12 @@ float4 _shadowVolumeColor;
 
 struct VertexInput
 {
-	float4 vertex : SV_POSITION;
+	float4 vertex : POSITION;
 };
 
 struct VertexOutput
 {
-	float4 position : SV_POSITION;
+	float4 position : POSITION;
 };
 
 VertexOutput ScreenVertex(VertexInput input)
@@ -21,12 +21,12 @@ VertexOutput ScreenVertex(VertexInput input)
 	return output;
 }
 
-float4 ScreenFragment() : COLOR
+float4 ScreenFragment() : SV_Target
 {
 	return float4(1.0f, 1.0f, 1.0f, 1.0f);
 }
 
-float4 ScreenColorFragment() : COLOR
+float4 ScreenColorFragment() : SV_Target
 {
 	return _shadowVolumeColor;
 }

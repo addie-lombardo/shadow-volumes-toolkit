@@ -8,9 +8,7 @@ labels:
 - lighting
 - shadows
 - shade
-timeCreated: 18446744011573954816
 MonoImporter:
-  externalObjects: {}
   serializedVersion: 2
   defaultReferences:
   - stencilClear: {fileID: 2100000, guid: 3af15d4dc1c5d4d37ad4f21055079593, type: 2}
@@ -28,5 +26,3 @@ MonoImporter:
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 

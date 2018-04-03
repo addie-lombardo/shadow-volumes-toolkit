@@ -16,7 +16,7 @@ public class ShadowMeshCreatorWindow : EditorWindow
 	{
 		EditorWindow window = EditorWindow.GetWindow<ShadowMeshCreatorWindow>();
 		
-		window.title = "Shadow Mesh Creator";
+		window.titleContent = new GUIContent("Shadow Mesh Creator");
 	}
 	
 	public void OnGUI()

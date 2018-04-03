@@ -1,4 +1,4 @@
-﻿// Shadow Volumes Toolkit
+// Shadow Volumes Toolkit
 // Copyright 2013 Gustav Olsson
 using UnityEngine;
 

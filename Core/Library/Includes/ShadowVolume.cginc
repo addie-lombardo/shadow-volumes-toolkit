@@ -1,5 +1,3 @@
-// Upgrade NOTE: unity_Scale shader variable was removed; replaced 'unity_Scale.w' with '1.0'
-// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
 // Shadow Volumes Toolkit
@@ -12,13 +10,13 @@ float _shadowVolumeExtrudeAmount;
 
 struct VertexInput
 {
-	float4 vertex : SV_POSITION;
+	float4 vertex : POSITION;
 	float3 normal : NORMAL;
 };
 
 struct VertexOutput
 {
-	float4 position : SV_POSITION;
+	float4 position : POSITION;
 };
 
 VertexOutput ShadowVolumeVertex(VertexInput input)
@@ -36,7 +34,7 @@ VertexOutput ShadowVolumeVertex(VertexInput input)
 	return output;
 }
 
-float4 ShadowVolumeFragment() : COLOR
+float4 ShadowVolumeFragment() : SV_Target
 {
 	return float4(1.0f, 1.0f, 1.0f, 2.0f / 255.0f);
 }
