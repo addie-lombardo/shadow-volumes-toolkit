@@ -1,5 +1,5 @@
 // Shadow Volumes Toolkit
-// Copyright 2012 Gustav Olsson
+// Copyright 2013 Gustav Olsson
 using UnityEngine;
 using UnityEditor;
 
@@ -81,7 +81,7 @@ public class ShadowAssetCreator : Object
 		}
 		else
 		{
-			Debug.LogError("Could not create a shadow mesh for " + referenceMesh.name + " since the mesh is not properly closed (2-manifold)");
+			Debug.LogError("A shadow mesh for " + referenceMesh.name + " could not be created because the maximum vertex count was exceeded.");
 		}
 		
 		return null;

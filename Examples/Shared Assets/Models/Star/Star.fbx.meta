@@ -12,8 +12,13 @@ timeCreated: 18446744011573954816
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+    100002: //RootNode
+    400002: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: Falloff
     4300002: Star
+    11100000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -21,7 +26,7 @@ ModelImporter:
     materialSearch: 1
     materialLocation: 0
   animations:
-    legacyGenerateAnimations: 4
+    legacyGenerateAnimations: 0
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
@@ -86,11 +91,11 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 0
   humanoidOversampling: 1
-  additionalBone: 0
+  additionalBone: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

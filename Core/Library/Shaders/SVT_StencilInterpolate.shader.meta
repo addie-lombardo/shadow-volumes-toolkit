@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0c6ddc35b14724b4c9dd43e1690f518f
+labels:
+- shadow
+- volume
+- toolkit
+- dynamic
+- lighting
+- shadows
+- shade
+timeCreated: 18446744011573954816
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

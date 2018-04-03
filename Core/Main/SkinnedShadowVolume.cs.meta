@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: 2c90d8c19e3c54e39a31d7272fcd42e4
+labels:
+- shadow
+- volume
+- toolkit
+- dynamic
+- lighting
+- shadows
+- shade
+timeCreated: 18446744011573954816
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stencilBackFrontAlways: {fileID: 2100000, guid: 65ad2156cef714df4a43a54e3223f17b,
+      type: 2}
+  - stencilFrontBack: {fileID: 2100000, guid: aa839872bdf8a4adc9d47ad6e0245399, type: 2}
+  - stencilBackAlways: {fileID: 2100000, guid: 65db62f9f2d274cacaf692956e21bc4b, type: 2}
+  - stencilFrontAlways: {fileID: 2100000, guid: 57123bcb70ae645e9a88354bed7977b2,
+      type: 2}
+  - stencilFront: {fileID: 2100000, guid: 8fb7e72f39a0f4731b99b200106c228b, type: 2}
+  - stencilBack: {fileID: 2100000, guid: 81af34b8a750741a0869a1d0571366c7, type: 2}
+  - alphaBackAlways: {fileID: 2100000, guid: fcf8be49f7db24e44ab120364cd4a077, type: 2}
+  - alphaFrontAlways: {fileID: 2100000, guid: a8635da114e5a4fb39a65242934d4fe7, type: 2}
+  - alphaFront: {fileID: 2100000, guid: 71788578136d74d5d91276f5d6b0be50, type: 2}
+  - alphaBack: {fileID: 2100000, guid: 5a808341912a74f71bdff31600650abd, type: 2}
+  - alphaFrontAlwaysNoBlendOp: {fileID: 2100000, guid: acb70adf4b43b4a7aa9fb3e8e4ef8546,
+      type: 2}
+  - alphaBackNoBlendOp: {fileID: 2100000, guid: 203376e7542aa416e8605d0bc1c5181e,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

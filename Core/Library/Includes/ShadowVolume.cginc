@@ -1,3 +1,4 @@
+// Upgrade NOTE: unity_Scale shader variable was removed; replaced 'unity_Scale.w' with '1.0'
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
@@ -24,7 +25,7 @@ VertexOutput ShadowVolumeVertex(VertexInput input)
 {
 	VertexOutput output;
 	
-	float3 localSource = mul(unity_WorldToObject, _shadowVolumeSource).xyz;
+	float3 localSource = mul(unity_WorldToObject, _shadowVolumeSource).xyz * 1.0;
 	
 	float3 sourceDirection = normalize(localSource - input.vertex.xyz * _shadowVolumeSource.w);
 	

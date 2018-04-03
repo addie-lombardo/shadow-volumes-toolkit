@@ -12,7 +12,19 @@ timeCreated: 18446744011573954816
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Star
+    100006: Bone
+    400000: //RootNode
+    400002: Armature
+    400004: Star
+    400006: Bone
     4300000: Star
+    7400000: ArmatureAction
+    11100000: //RootNode
+    13700000: Bone
+    13700002: Star
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -85,11 +97,11 @@ ModelImporter:
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
-    skeletonHasParents: 1
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1
-  additionalBone: 0
+  additionalBone: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
